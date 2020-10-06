@@ -1,0 +1,46 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .custom-alert-marker {
+    width: auto;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*pointer-events: none;*/
+  }
+  
+  
+  .custom-alert-marker .inventory-status-icon{
+      display: block;
+  }
+  .custom-alert-marker .inventory-status-text{
+      text-align: center;
+      line-height: 1;
+      font-size: 12px;
+      background: rgb(255, 255, 255);
+      border-radius: 4px;
+      padding: 4px 4px;
+      box-sizing: border-box;
+  }
